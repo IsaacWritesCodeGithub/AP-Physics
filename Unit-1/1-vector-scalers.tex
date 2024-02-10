@@ -4,8 +4,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{xcolor}
-\pagecolor[rgb]{0.1,0.1,0.1} % Set page background color to dark
-\color[rgb]{0.9,0.9,0.9} % Set text color to light
+%\pagecolor[rgb]{0.1,0.1,0.1} % Set page background color to dark
+%\color[rgb]{0.9,0.9,0.9} % Set text color to light
 
 \usepackage{geometry}
 \usepackage{graphicx}
@@ -21,6 +21,7 @@
 \usepackage{psfrag}
 \usepackage{pgfplots}
 \usepackage{bm}
+\usepackage[makeroom]{cancel}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Other Settings
@@ -88,8 +89,28 @@ If a car is moving at 60 miles per hour eastward, the velocity is a vector quant
 \paragraph{How the choice of reference frame is related to speed and velocity measurements}
 \subsection{Example}
 A reference frame is a like a fixed point. Properties of other objects such as: position, velocity etc. are measured using the point.
-    It is so because no point in the universe is stationary or static. Every point is moving depending on another 'so called' static point.
-    See it like this: you are going to a amusement park in a bus with your friend. When the bus starts moving you see everything outside the bus going backwards. Here you are the reference frame. But for a person standing beside the road who has just missed the bus would 'observe' your bus going onward with you and your friend. So for the pedestrian both you and your friend are moving at a certain speed. But for you, you see that your friend is just sitting beside you, according to you, he is not moving but stationary as you are.
-    So the summary is when you are the frame of reference you and your friend are stationary and the pedestrian is moving. For the pedestrian it is the vice versa.
+It is so because no point in the universe is stationary or static. Every point is moving depending on another 'so called' static point.
+See it like this: you are going to a amusement park in a bus with your friend. When the bus starts moving you see everything outside the bus going backwards. Here you are the reference frame. But for a person standing beside the road who has just missed the bus would 'observe' your bus going onward with you and your friend. So for the pedestrian both you and your friend are moving at a certain speed. But for you, you see that your friend is just sitting beside you, according to you, he is not moving but stationary as you are.
+So the summary is when you are the frame of reference you and your friend are stationary and the pedestrian is moving. For the pedestrian it is the vice versa.
+
+\section{Calculating average velocity or speed}
+Although speed and velocity are often words used interchangeably, in physics, they are distinct concepts. Velocity (v) is a vector quantity that measures displacement (or change in position, $\Delta {s} $) over the change in time ($\Delta {t} $), represented by the equation v = $\Delta {s}/ \Delta {t}  $. Speed (or rate, r) is a scalar quantity that measures the distance traveled (d) over the change in time ($\Delta {t}$), represented by the equation r = d/$\Delta {t}$.
+\section{Solving for time}
+Rate of change in position, or speed, is equal to distance traveled divided by time (r=d/t). To solve for time, divide the distance traveled by the rate. For example, if Cole drives his car 45 km per hour and travels a total of 225 km, then he traveled for 225/45 = 5 hours.
+\section{Displacement from time and velocity}
+If Maricia travels for 1 minute at 5 m/s to the south, how much will she be displaced?
+$$Steps$$
+$$\overrightarrow{v} = \overrightarrow{s}/\Delta{t}$$
+$$\overrightarrow{s} = \overrightarrow{v} * \Delta{t}$$
+$$\overrightarrow{s} = 5m/s*1min$$
+$$\overrightarrow{s} = 5*60$$
+$$\overrightarrow{s} = 300 \text { meters to the south }$$
+\section{Acceleration: Change in velocity over time}
+Acceleration (a) is the change in velocity ($\Delta{v}$) over the change in time ($\Delta{t}$), represented by the equation a = $\Delta{v}/\Delta{t}$. This allows you to measure how fast velocity changes in meters per second squared ($m/s^2$). Acceleration is also a vector quantity, so it includes both magnitude and direction.
+\subsection{Examples}
+Porsche 911 0-60 in 3 seconds (East)
+$$\dfrac{60-0\text{ mph }}{3\text{ seconds }}=20\dfrac{miles}{hours}/second\text{ East }$$
+$$20\dfrac{miles}{\cancel{hour}*seconds}*\dfrac{1}{3600}\dfrac{\cancel{hour}}{seconds}=\dfrac{20}{3600}\dfrac{miles}{second^2}=\dfrac{1}{180}\dfrac{miles}{sec^2}=\dfrac{1}{180}\dfrac{miles}{sec}/sec$$
+
 
 \end{document}
